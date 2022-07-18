@@ -11,6 +11,15 @@
 body{
     font-family: "Poppins",sans-serif;
 }
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    align-items: center;
+    margin: auto; 
+ }
+ 
 a{
     text-decoration: none;
     font-weight: 400;
@@ -134,13 +143,7 @@ input::placeholder{
 
 /* About Section */
 
-.row{
-    display: flex;
-    justify-content: space-between;
-    width: 80%;
-    align-items: center;
-    margin: auto; 
- }
+
 
 .about-left{
     display: flex;
@@ -177,4 +180,47 @@ input::placeholder{
     border-radius: 4px; 
     cursor: pointer;
     text-transform:uppercase;
+}
+
+/* About2 Section */
+
+.about2{
+
+    background-color: #222;
+    color: whitesmoke;
+}
+
+.about2-left{
+
+    flex-basis: 50%;
+}
+
+.about2-right{
+
+    flex-basis: 50%;
+}
+
+.about2 .card{
+
+    padding: 3rem 8rem;
+    color: #222;
+    background-color: #dcdcdc;
+    margin: 1.6rem;
+    text-align: center;
+    
+}
+
+ .bx{
+    font-size: 5rem;
+}
+
+.bxl-android{
+    color: #4caf50;
+}
+
+.bxs-data{
+    color: blue;
+}
+.bx-line-chart-down{
+    color: violet;
 }

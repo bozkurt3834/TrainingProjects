@@ -44,6 +44,11 @@ PROJECT STEPS
 -Hero section completed.
 -First About section completed.
 
+#V2.1
+
+-Second About section added,not completed yet.
+
+
 
 
 
